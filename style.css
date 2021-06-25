@@ -1,0 +1,31 @@
+body {
+  background-color: rgba(0, 0, 0, 0.795);
+  color: whitesmoke;
+  font-family: cursive;
+  margin: 0 auto;
+  text-align: center;
+}
+#image {
+  width: 60vw;
+}
+h2 {
+  font-size: 3vw;
+}
+h3 {
+  margin: 1rem 0;
+}
+iframe {
+  width: 40vw;
+  height: 25vw;
+  border: 1rem solid whitesmoke;
+}
+
+@media only screen and (max-width: 768px) {
+  #image {
+    width: 100vw;
+  }
+  iframe {
+    width: 80vw;
+    height: 50vw;
+  }
+}
