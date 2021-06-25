@@ -60,6 +60,7 @@ var source=[
 
 // Adding the Travel suggestion.
 var RandomNumber= Math.floor(Math.random()*Destinations.length);
+document.write("<h1>Travel Suggestions</h1>")
 document.write("<h2>"+Destinations[RandomNumber]+".</h2>")
 
 // Adding image related to the travel suggestion.
